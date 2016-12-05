@@ -38,14 +38,13 @@ docker-compose up
 Open a browser and type http://172.17.0.1 to see the website. Type "/devices" or "/brands" to view the queries to the database according to the web server. If it does not work, just type http://localhost
 
 ## Contract RESTful
-
 Theses are the web services offered for the web application
 
 |   Method       | Description    |
 | :------------- | :------------- |
 | GET  {{host}}/ | Get a testing message of RESTful       |
 | GET  {{host}}/devices | Get the name of all the devices in the database       |
-| GET  {{host}}/brands | Get the name of all the devicellphones brands in the database       |
+| GET  {{host}}/brands | Get the name of all the cellphone brands in the database       |
 
 
 ### Stop
@@ -54,7 +53,6 @@ When you want to stop the docker containers, just open again the terminal, go to
 docker-compose down
 ```
 
-Ready !
 
 ## Contribute
 Github is all about contributions. If you think you can collaborate or improve this, please make sure you send me a pull request
