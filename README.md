@@ -20,7 +20,7 @@ Clone the repository to any folder in your computer
 git clone https://github.com/andresort28/docker-sinatra-postgres.git 
 ```
 
-### Download Cocker images
+### Download Docker images
 Just pull 2 docker images from docker hub. Open a terminal a type the following:
 ```sh
 docker pull centos:7
